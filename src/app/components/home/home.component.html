@@ -1,0 +1,533 @@
+<div class="container-fluid bg-img">
+  <div class="row">
+    <div class="col-lg-12">
+      <div class="banner-text">
+        <h2>
+          Creating stories<br />
+          you'd love to tell
+        </h2>
+        <!-- <div id="intro-vid" class="d-flex align-items-center">
+          <a
+            href="https://www.youtube.com/watch?v=jDDaplaOz7Q"
+            class="play-btn mb-4 vbox-item"
+            data-vbtype="video"
+            data-autoplay="true"
+          ></a>
+          <a class="intro-vid-con"
+            >Watch<br /><span style="font-weight: 600;"> INTRO VIDEO</span></a
+          >
+        </div> -->
+      </div>
+    </div>
+  </div>
+</div>
+
+<!-- Popular courses -->
+
+<div class="container-fluid my-container">
+  <div class="row">
+    <div class="col-lg-12 col-md-12 col-sm-12 remove-padding">
+      <div class="col-lg-12 p-0">
+        <div class="slider-main">
+          <h2>Popular Courses</h2>
+          <p>
+            Upskill yourself with the industry recognised course<br />
+            with one of the best leading industry mentors.
+          </p>
+        </div>
+      </div>
+      <div class="row">
+        <div class="col-lg-3">
+          <section class="popular-courses slider content-slider-content">
+            <div class="slide" *ngFor="let obj of obj">
+              <h6>{{ obj.title }}</h6>
+              <p>{{ obj.data }}</p>
+            </div>
+          </section>
+        </div>
+        <div class="col-lg-9">
+          <section class="popular-courses-card slider content-slider-content" id="arrow">
+            <div class="slide" *ngFor="let obj of obj1">
+              <div class="card-slider">
+                <div class="inner-card-slider">
+                  <img [src]="obj.url" />
+                  <h6>{{ obj.title }}</h6>
+                  <p>{{ obj.data }}</p>
+                </div>
+              </div>
+            </div>
+          </section>
+        </div>
+      </div>
+
+    </div>
+  </div>
+</div>
+
+<!-- Testimonials -->
+<div class="container-fluid my-container testimonials desktop-testimonial">
+  <div
+    class="carousel slide carousel-fade"
+    id="carouselExampleIndicators"
+    data-ride="carousel"
+    data-pause="false"
+    data-interval="8000"
+  >
+    <ol class="carousel-indicators">
+      <li
+        data-target="#carouselExampleIndicators"
+        data-slide-to="0"
+        class="active"
+      ></li>
+      <li data-target="#carouselExampleIndicators" data-slide-to="1"></li>
+      <li data-target="#carouselExampleIndicators" data-slide-to="2"></li>
+    </ol>
+    <div class="row">
+      <div class="col-lg-12">
+        <h2>Testimonials</h2>
+      </div>
+    </div>
+      <div class="carousel-inner">
+        <div class="carousel-item active">
+          <div class="row ">
+            <div class="col-lg-7 col-md-7">
+              <div class="test-con">
+              <p>
+               "I was looking for a full stack development course since I wanted to upgrade my skill and search for a technical job. I came across Teqstories from one of my friend. I joined them for the course. I will really appreciate the way the trainer taught me technologies.
+                They were always there when I want to clear my doubts. The learning was completely practical and right from the trainer taught us from the scratch. Even the support team was very helpful in clearing all the doubts. I got placed in Wipro as a software developer. This was all because of learning from Teqstories.
+                They truely created my stories."
+
+              </p>
+              <strong>Kajol Naik</strong><br>
+                <em>Program Analyst at Cognizant.</em>
+            </div>
+          </div>
+            <div class="col-lg-5 col-md-5" id="test-pic">
+              <img src="../../../assets/images/testimonials/1.png" alt="">
+            </div>
+          </div>
+        </div>
+        <div class="carousel-item">
+          <div class="row ">
+            <div class="col-lg-7 col-md-7">
+             <div class="test-con">
+              <p>
+                "The classes were amazing. The classes always started on time. I have never seen a trainer so punctual. He was nice and humble and always cleared my doubts. Even support team was great and always gave a solution to my problem. Overall it was a wonderful journey with Teqstories. The training was completely hands on with live practical example. I was even able to crack a job interview because of their training efforts.
+Currently I work as a data scientist.
+I would highly recommend Teqstories to everyone who is looking for a serious learning."
+              </p>
+              <h5>Sonali Ghoshal</h5>
+              <em>Data scientist</em>
+            </div>
+            </div>
+            <div class="col-lg-5 col-md-5" id="test-pic">
+              <img src="../../../assets/images/testimonials/2.png" alt="">
+            </div>
+          </div>
+        </div>
+
+    </div>
+  </div>
+</div>
+
+<div
+  class="container-fluid my-container m-testimonials d-block d-md-block d-lg-none d-xl-none"
+>
+  <div
+    id="carouselExampleIndicators"
+    class="carousel slide"
+    data-ride="carousel"
+  >
+    <ol class="carousel-indicators">
+      <li
+        data-target="#carouselExampleIndicators"
+        data-slide-to="0"
+        class="active"
+      ></li>
+      <li data-target="#carouselExampleIndicators" data-slide-to="1"></li>
+      <li data-target="#carouselExampleIndicators" data-slide-to="2"></li>
+    </ol>
+    <h2>Testimonials</h2>
+    <div class="carousel-inner">
+      <div class="carousel-item active">
+        <div class="row">
+          <div class="col-12 mbl-testimonial">
+            <img src="../../../assets/images/testimonials/m1.svg" alt="" />
+            <p>
+              "I was looking for a full stack development course since I wanted to upgrade my skill and search for a technical job. I came across Teqstories from one of my friend. I joined them for the course. I will really appreciate the way the trainer taught me technologies.
+              They were always there when I want to clear my doubts. The learning was completely practical and right from the trainer taught us from the scratch. Even the support team was very helpful in clearing all the doubts. I got placed in Wipro as a software developer. This was all because of learning from Teqstories.
+              They truely created my stories."
+            </p>
+            <h5>Kajol Naik</h5>
+            <em>Program Analyst at Cognizant.</em>
+          </div>
+        </div>
+      </div>
+      <div class="carousel-item">
+        <div class="row">
+          <div class="col-12 mbl-testimonial">
+            <img src="../../../assets/images/testimonials/m2.svg" alt="" />
+            <p>
+              "The classes were amazing. The classes always started on time. I have never seen a trainer so punctual. He was nice and humble and always cleared my doubts. Even support team was great and always gave a solution to my problem. Overall it was a wonderful journey with Teqstories. The training was completely hands on with live practical example. I was even able to crack a job interview because of their training efforts.
+Currently I work as a data scientist.
+I would highly recommend Teqstories to everyone who is looking for a serious learning."
+            </p>
+            <h5>Sonali Ghoshal</h5>
+            <em>Data scientist</em>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+
+<!-- how it works -->
+<div class="container-fluid my-container">
+  <div class="row">
+    <div class="col-lg-12 hiw-heading">
+      <h2>How It Works</h2>
+      <p class="m-0">
+        TeqStories stands by you all the way to ensure that you achieve your
+        learning goals.
+      </p>
+
+    </div>
+  </div>
+  <!--  -->
+  <div class="row">
+    <div class="col-lg-4 col-md-4 col-sm-4 hiw-cont">
+      <img src="../../../assets/images/Capture.PNG" alt="" />
+    </div>
+    <div class="col-lg-8 col-md-8 col-sm-8 hiw-cont">
+      <p>
+        Our technical Executive will get in touch with you on receiving your inquiry.
+He tries to understand all your learning need and clarify all your doubts.
+Our technical executive will share you the recorded session of your trainer.
+You go through the session to have a look and feel of the class.
+You can also have an interaction with the trainer if you have any queries.
+      </p>
+    </div>
+  </div>
+  <!--  -->
+  <div class="row">
+    <div
+      class="col-lg-8 col-md-8 col-sm-8 order-last order-md-first order-lg-first hiw-cont"
+    >
+      <p>
+        You enroll for the course. You can enroll for a classroom or online medium.
+        Content is shared across live screening. The trainer shows you practical live demonstration.
+        You can always ask the trainer Incase of doubts and resolve it.
+        Incase you miss a class you will have recorded session for your reference.
+        You will also receive a full set of recording of the complete class on the enrollment for the course.
+        You will have access to complete documentation and e-materials required for your learning.
+      </p>
+    </div>
+    <div
+      class="col-lg-4 col-md-4 col-sm-4 order-first order-md-last order-lg-last hiw-cont"
+    >
+      <img src="../../../assets/images/Capture1.PNG" alt="" />
+    </div>
+  </div>
+  <!--  -->
+  <div class="row">
+    <div class="col-lg-4 col-md-4 col-sm-4 hiw-cont">
+      <img src="../../../assets/images/Capture.PNG" alt="" />
+    </div>
+    <div class="col-lg-8 col-md-8 col-sm-8 hiw-cont">
+      <p>
+        The training is completely hands on and weekly assignment are given for better understanding.
+Incase of any doubts you can always reach out to our support team and we make
+sure that we resolve all your queries at lightening speed.
+      </p>
+    </div>
+  </div>
+  <!--  -->
+  <div class="row">
+    <div
+      class="col-lg-8 col-md-8 col-sm-8 order-last order-md-first order-lg-first hiw-cont"
+    >
+      <p>
+        Post completion of the training you need to work on the live projects.
+Once your project is completed you need to get it reviewed.
+You can also schedule a consultation with the trainer post project completion.
+Get certified from TeqStories Your certificate holds a high value and
+the company can cross verify the same by logging in our portals.
+      </p>
+    </div>
+    <div
+      class="col-lg-4 col-md-4 col-sm-4 order-first order-md-last order-lg-last hiw-cont"
+    >
+      <img src="../../../assets/images/Capture1.PNG" alt="" />
+    </div>
+  </div>
+</div>
+
+<!-- Advisor Profile -->
+<!-- <div
+  class="container-fluid my-container carousel slide advisor-main"
+  id="carouselExampleIndicators"
+  data-ride="carousel"
+  data-pause="false"
+>
+  <div class="row">
+    <div class="col-lg-12">
+      <h2>Advisor Profile</h2>
+    </div>
+  </div>
+  <ol class="carousel-indicators">
+    <li
+      data-target="#carouselExampleIndicators"
+      style="color:#005b98;"
+      data-slide-to="0"
+      class="active"
+    ></li>
+    <li
+      data-target="#carouselExampleIndicators"
+      style="color:#005b98;"
+      data-slide-to="1"
+    ></li>
+    <li
+      data-target="#carouselExampleIndicators"
+      style="color:#005b98;"
+      data-slide-to="2"
+    ></li>
+  </ol>
+  <div class="carousel-inner">
+    <div class="carousel-item active">
+      <div class="row" id="advisor-card">
+        <div
+          class="col-lg-9 col-md-9 col-sm-9 order-last order-md-first order-lg-first"
+        >
+          <div class="advisor-profile">
+            <div class="advisor-profile-content">
+              <p>
+                Teq stories is one of the leading edtech companies across the
+                globe. We provide online training in disciplines such as Aws
+                Devops, Azure Devops, Mean Stack, Mern Stack, Data Science and
+                more. Teq stories is one of the leading edtech companies across
+                the globe. We provide online training in disciplines such as Aws
+                Devops, Azure Devops, Mean Stack, Mern Stack.
+              </p>
+            </div>
+          </div>
+        </div>
+        <div
+          class="col-lg-3 col-md-3 col-sm-3 order-first order-md-first order-lg-first"
+        >
+          <img
+            src="../../../assets/Images-Used/custom – 1 (2).svg"
+            class="advisor-img"
+          />
+        </div>
+      </div>
+    </div>
+    <div class="carousel-item">
+      <div class="row" id="advisor-card">
+        <div
+          class="col-lg-9 col-md-9 col-sm-9 order-last order-md-first order-lg-first"
+        >
+          <div class="advisor-profile">
+            <div class="advisor-profile-content">
+              <p>
+                Teq stories is one of the leading edtech companies across the
+                globe. We provide online training in disciplines such as Aws
+                Devops, Azure Devops, Mean Stack, Mern Stack, Data Science and
+                more. Teq stories is one of the leading edtech companies across
+                the globe. We provide online training in disciplines such as Aws
+                Devops, Azure Devops, Mean Stack, Mern Stack.
+              </p>
+            </div>
+          </div>
+        </div>
+        <div
+          class="col-lg-3 col-md-3 col-sm-3 order-first order-md-first order-lg-first"
+        >
+          <img
+            src="../../../assets/Images-Used/custom – 1 (2).svg"
+            class="advisor-img"
+          />
+        </div>
+      </div>
+    </div>
+  </div>
+</div> -->
+
+<!-- advantage -->
+<div class="container-fluid my-container desktop">
+  <div class="row advantage-main">
+    <div class="col-lg-12">
+      <h2>The Teqstories Advantage</h2>
+    </div>
+    <div class="col-lg-4 col-md-4">
+      <div class="cards">
+        <img src="../../../assets/images/adv1.png" alt="" />
+        <div class="cards-con">
+          <h5>Learn at Ease</h5>
+          <hr />
+          <p>
+            Flexibility offered in attending sessions in both online and classroom modes
+            of training at candidates' preferred time schedules
+          </p>
+        </div>
+      </div>
+    </div>
+    <div class="col-lg-4 col-md-4">
+      <div class="cards">
+        <img src="../../../assets/images/adv2.png" alt="" />
+        <div>
+          <h5>Access to LMS</h5>
+          <hr />
+          <p>
+            The TeqStories LMS portal
+            keeps you updated with a huge library of recorded video lectures and
+            supports with an active community for all your queries
+          </p>
+        </div>
+      </div>
+    </div>
+    <div class="col-lg-4 col-md-4">
+      <div class="cards">
+        <img src="../../../assets/images/adv3.png" alt="" />
+        <div>
+          <h5>24/7 Technical Support</h5>
+          <hr />
+          <p>
+            Our senior mentors are always happy to guide on your
+            doubt clarifications and provide consultation to ensure a smooth learning experience
+          </p>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+
+
+<!-- teqstories mobile -->
+<div
+  class="container-fluid my-container  d-block d-md-block d-lg-none d-xl-none"
+>
+  <div class="row">
+    <div class="col-md-12 col-sm-12 m-advantage">
+      <h2>The Teqstories Advantage</h2>
+    </div>
+  </div>
+  <div class=" m-card">
+    <div class="row">
+      <div class="col-md-4 col-sm-4 col-4">
+        <img src="../../../assets/images/adv1.png" alt="" />
+      </div>
+      <div class="col-md-8 col-sm-8 col-8">
+        <h5>Learn at Ease</h5>
+          <hr />
+          <p>
+            Flexibility offered in attending sessions in both online and classroom modes
+            of training at candidates' preferred time schedules
+          </p>
+      </div>
+    </div>
+  </div>
+
+  <div class="m-card">
+    <div class="row">
+      <div class="col-md-4 col-sm-4 col-4">
+        <img src="../../../assets/images/adv2.png" alt="" />
+      </div>
+      <div class="col-md-8 col-sm-8 col-8">
+        <h5>Access to LMS</h5>
+          <hr />
+          <p>
+            The TeqStories LMS portal
+            keeps you updated with a huge library of recorded video lectures and
+            supports with an active community for all your queries
+          </p>
+      </div>
+    </div>
+  </div>
+
+  <div class=" m-card">
+    <div class="row">
+      <div class="col-md-4 col-sm-4 col-4">
+        <img src="../../../assets/images/adv3.png" alt="" />
+      </div>
+      <div class="col-md-8 col-sm-8 col-8">
+        <h5>24/7 Technical Support</h5>
+          <hr />
+          <p>
+            Our senior mentors are always happy to guide on your
+            doubt clarifications and provide consultation to ensure a smooth learning experience
+          </p>
+      </div>
+    </div>
+  </div>
+</div>
+
+<!-- Enroll -->
+<div class="container-fluid">
+  <div class="row enroll">
+    <div class="col-lg-7 col-lg-7 enroll-one">
+      <h2>Get ready to achieve your learning
+        goals with Teqstories</h2>
+    </div>
+
+    <div class="col-lg-5 col-lg-5 enroll-three">
+      <button class="btn btn-primary" data-toggle="modal" data-target="#exampleModalCenter">Enquire now</button>
+    </div>
+  </div>
+</div>
+
+<!-- Modal -->
+<div class="modal fade" id="exampleModalCenter" #modelPopup tabindex="-1" role="dialog" aria-labelledby="exampleModalCenterTitle" aria-hidden="true">
+  <div class="modal-dialog modal-dialog-centered" role="document">
+    <div class="modal-content">
+      <div class="modal-header">
+        <h5 class="modal-title" id="exampleModalLongTitle"><img src="../../../assets/images/modal logo.png">Sign up now & start learning for free</h5>
+        <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+          <span aria-hidden="true">&times;</span>
+        </button>
+      </div>
+      <div class="modal-body">
+        <form #f="ngForm" name="myform">
+        <div class="form-group">
+          <input type="phone" class="form-control" id="phone" placeholder="Enter your mobile No" name="phone" #phone="ngModel" [(ngModel)]="formDataService.formData.phone"  [ngClass]="{'is-invalid':f.submitted && phone.invalid}" required>
+            <div *ngIf="f.submitted && phone.invalid" class="invalid-feedback">
+              <div *ngIf="phone.errors.required">Phone Number is required</div>
+            </div>
+        </div>
+          <div class="form-group">
+            <input type="email" class="form-control" id="email" placeholder="Enter your Email Id" name="email" #email="ngModel"  [(ngModel)]="formDataService.formData.email">
+          </div>
+          <div class="modal-footer">
+            <button type="submit" name="submit" class="btn btn-lg btn-block btn-primary" (click)="onSubmit(f)" id="myModal">Start watching Now!</button>
+          </div>
+        </form>
+      </div>
+    </div>
+  </div>
+</div>
+
+
+<!-- clients -->
+<div class="container-fluid my-container clients-main">
+  <div class="row ">
+    <div class="col-lg-12">
+      <h2>Clients</h2>
+    </div>
+
+    <div
+      class="col-lg-2 col-md-4 col-sm-4 col-4 clients"
+      *ngFor="let clients of clients"
+    >
+      <img [src]="clients" />
+    </div>
+  </div>
+</div>
+
+<!-- footer -->
+<div class="container-fluid my-container footer-bg-pic">
+  <div class="row">
+    <div class="col-lg-12 col-md-12 col-sm-12 col-12 footer-cont">
+      <h2>Investment in knowledge. <br>Pays the best interest</h2>
+    </div>
+  </div>
+</div>
+

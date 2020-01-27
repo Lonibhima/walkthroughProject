@@ -1,0 +1,85 @@
+{
+    "menu": [
+        {
+            "parentCourseName": "DevOps",
+            "regular": [
+                {
+                    "id": 317,
+                    "title": "Kubernetes Certification Course"
+                },
+                {
+                    "id": 346,
+                    "title": "Dockers Certification Course"
+                },
+                {
+                    "id": 375,
+                    "title": "Jenkins Certification Course"
+                },
+                {
+                    "id": 404,
+                    "title": "GitHub Certification Course"
+                }
+            ],
+            "master": [
+                {
+                    "id": 45,
+                    "title": "Devops Certification Training"
+                },
+                {
+                    "id": 288,
+                    "title": "Azure DevOps Solutions Architect"
+                }
+            ]
+        },
+        {
+            "parentCourseName": "Cloud Computing",
+            "regular": [
+                {
+                    "id": 201,
+                    "title": "Azure Solutions Architect"
+                },
+                {
+                    "id": 230,
+                    "title": "VMWare Solutions Architect"
+                }
+            ],
+            "master": [
+                {
+                    "id": 19,
+                    "title": "AWS Certified Solutions Architect"
+                },
+                {
+                    "id": 259,
+                    "title": "Oracle Cloud Solutions Architect"
+                }
+            ]
+        },
+        {
+            "parentCourseName": "Data Science and BI Analytics",
+            "regular": [
+                {
+                    "id": 433,
+                    "title": "PowerBI Certification Course"
+                },
+                {
+                    "id": 462,
+                    "title": "Tableu Certification Course"
+                },
+                {
+                    "id": 491,
+                    "title": "Data Science and Machine Learning Certification Course"
+                },
+                {
+                    "id": 520,
+                    "title": "Artificial Intelligence Certification Course"
+                }
+            ],
+            "master": [
+                {
+                    "id": 549,
+                    "title": "DS with AI Certification Course"
+                }
+            ]
+        }
+    ]
+}

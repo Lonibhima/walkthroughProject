@@ -1,0 +1,105 @@
+
+<div class="mobile" *ngIf="screen==='web'">
+<nav class="navbar navbar-expand-lg navbar-light myNav">
+  <a class="navbar-brand" href="#">Navbar</a>
+  <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+    <span class="navbar-toggler-icon"></span>
+  </button>
+
+  <div class="collapse navbar-collapse" id="navbarSupportedContent">
+    <ul class="navbar-nav mr-auto">
+      <li class="nav-item active">Home <span class="sr-only">(current)</span>
+      </li>
+      <li class="nav-item dropdown">
+        <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+          Courses
+        </a>
+        <div class="dropdown-menu dropdown-menu-layout p-0" aria-labelledby="dropdown01">
+          <div class="row menu">
+            <div class="col-lg-4 parentMenu p-0">
+              <ul  ng-click="$event.stopPropagation()">
+                <h4 class="dropdown-header">Courses Categories</h4>
+                <li (click)="nohideTogg($event)"><a class="dropdown-item text-wrap" (mouseenter)="toggleMeu(i)"
+                    *ngFor="let courseName of parentCourseName;let i =index" width="100%">{{courseName}}</a></li>
+              </ul>
+            </div>
+                <div class="col-lg-4  p-0 subMenuList" [ngClass]="{ show: targetMenu == i }"
+                  *ngFor="let myData of courseData; let i = index">
+                  <ul>
+                    <h4 class="dropdown-header">Popular Courses</h4>
+                    <li><a class="dropdown-item text-wrap" 
+                        *ngFor="let regular of myData.regular" (click)="navigate(regular.id)">{{regular.title}}</a></li>
+                  </ul>
+                </div>
+                <div class="col-lg-4  p-0 subMenuList" [ngClass]="{ show: targetMenu == i }"
+                  *ngFor="let myData of courseData; let i = index">
+                  <ul>
+                    <h4 class="dropdown-header">Masters Program</h4>
+                    <li> <a class="dropdown-item text-wrap" 
+                        *ngFor="let master of myData.master" routerLink="courses">{{master.title}}</a></li>
+                  </ul>
+                </div> 
+          </div>
+        </div>
+      </li>   
+      <li class="nav-item">
+        <a class="nav-link" href="#">About</a>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link" href="#">Contact</a>
+      </li>
+    </ul>
+  </div>
+</nav>
+</div>
+
+<div class="mobile" *ngIf="screen==='mobile'">
+  <ng-sidebar-container class="sidenav-container" [style.height]="_opened?'100vh':'100%'" >
+      <ng-sidebar [(opened)]="_opened" [position]="'right'">
+          <div style="width: 100vw;">
+              <div class="student-header navbar-home " [style.background]="headerBackgroundURL">
+                  <a class="navbar-brand" style="height:auto" [routerLink]="['/']">
+                      <img style="height: 3.2rem;" alt="Mentoria logo" src="../../../assets/images/modal logo.png">
+                  </a>
+                  <div fxLayout="row" fxShow="true" style="color:#666">
+                      <a (click)="_toggleOpened()" style="margin-right: 1rem;">
+                        <img class="centre icons" style="height: 2.5rem;" alt="" src="../../../assets/icon/cross.png">
+                      </a>
+                  </div>
+              </div>
+              <div class="sidebar-div" fxLayout="column" style="min-height: calc(100vh); padding-top: 6rem; background: #fff;">
+                  <mat-accordion>
+                      <mat-expansion-panel >
+                          <mat-expansion-panel-header>
+                              <mat-panel-title>
+                                  <span class="purple-title-text">Career Solutions</span>
+                              </mat-panel-title>
+                          </mat-expansion-panel-header>
+                          <p class="menu-item" (click)="_toggleOpened()"> 8th-10th</p>
+                          <p class="menu-item" (click)="_toggleOpened()"> 11th-12th</p>
+                          <p class="menu-item" (click)="_toggleOpened()">College Graduates</p>
+                          <p class="menu-item" (click)="_toggleOpened()">Working Professionals</p>
+                      </mat-expansion-panel>
+                      <mat-expansion-panel >
+                          <mat-expansion-panel-header>
+                              <mat-panel-title>
+                                  <span class="purple-title-text"> Partnerships</span>
+                              </mat-panel-title>
+                          </mat-expansion-panel-header>
+                          <p class="menu-item" (click)="_toggleOpened()">Educators
+                          </p>
+                          <p class="menu-item" (click)="_toggleOpened()"> Corporates</p>
+                          <p class="menu-item" (click)="_toggleOpened()">Counsellors </p>
+                      </mat-expansion-panel>
+                  </mat-accordion>
+              </div>
+          </div>
+      </ng-sidebar>
+  </ng-sidebar-container>
+</div>
+
+<div *ngIf="screen==='mobile'" class="list-nav" style="text-align: right;align-self: center;margin:0 1rem">
+  <a (click)="_toggleOpened()">
+      <img class="icons" alt="" src="../../../assets/icon/menu.png">
+  </a>
+</div>

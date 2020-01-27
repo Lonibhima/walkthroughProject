@@ -1,0 +1,1405 @@
+.modal-footer button{
+    font-family: 'Muli', sans-serif !important;
+    background-color: #005b98;
+    color: #ffffff;
+    box-shadow: 0 10px 20px 0 rgba(7, 5, 5, 0.16);
+    border-radius: 4px;
+  }
+  
+  
+  h3{
+    color: #005d9a;
+  }
+  
+  
+  .main{
+    padding: 0px 83px;
+  }
+  .left-content h2{
+    color: #005d9a;
+    font-size: 38px;
+    font-weight: bold;
+    letter-spacing: 0.58px;
+  }
+  .main ul{
+    padding: 18px;
+  }
+  .main .btn-lg{
+    box-shadow: 0 4px 9px rgba(74, 144, 226, 0.58);
+    padding: 4px 65px;
+    background-color: #005d9a;
+  }
+  .main .demo img{
+    height: auto  ;
+    width: 100%;
+    border-radius: 4px;
+    box-shadow: 0px 10px 20px #042c419e;
+  }
+  .main .demo{
+    padding: 18px 0;
+    text-align: right;
+  
+  }
+  
+  
+  .sm-certificet{
+    margin-top: -20px;
+  }
+  
+  
+  .my-container .course-details{
+    box-shadow: 0 3px 10px 0 rgba(18, 14, 61, 0.12);
+    text-align: center;
+    padding: 30px 0;
+    position: sticky;
+  }
+  .course-details p{
+    margin-bottom: 0;
+    color: rgba(18, 14, 61, 0.35);
+    font-size: 14px;
+  }
+  .course-details h3{
+    font-size: 25px;
+    letter-spacing: 0.38px;
+  }
+  .segOne h3{
+    color:#f5a623;
+  }
+  .segTwo h3{
+    color:#ff8982;
+  }
+  .segThree h3{
+    color:#00abb1;
+  }
+  .segFour h3{
+    color: #00c190;
+  }
+  .segFive h3{
+    color:#d3866e;
+  }
+  .my-container{
+    padding: 30px 83px;
+  }
+  .modal-dialog {
+    max-width: 800px;
+    margin: 30px auto;
+  }
+  .modal-body {
+  position:relative;
+  padding:0px;
+  }
+  .close {
+    left: 97%;
+    position: absolute;
+    right: -30px;
+    top: -35px;
+    z-index: 999;
+    font-size: 2rem;
+    font-weight: normal;
+    color: #fff;
+    opacity: 1;
+  }
+  
+  /* courses details second card */
+  .course-details-secCard{
+    box-shadow: 0 3px 10px 0 rgba(18, 14, 61, 0.12);
+    text-align: center;
+    padding: 25px 0px;
+  }
+  .course-details-secCard a{
+      color: rgba(18, 14, 61, 0.7);
+      font-size: 14px;
+      font-weight: 500;
+      text-decoration: none;
+  }
+  .course-details-secCard p{
+    margin-bottom: 0;
+  }
+  .course-details-secCard btn-lg{
+    box-shadow: 0 4px 9px 0 rgba(74, 144, 226, 0.58);
+    padding: 4px 65px;
+    background-color: #005d9a;
+  
+  }
+  .course-details-secCard .menu-sec:hover a{
+    color: #005d9a;
+  
+  }
+  .course-details-secCard .btn-lg{
+    background-color: #005d9a;
+    color: white;
+    padding: 4px 50px;
+    box-shadow: 0 4px 9px 0 rgba(74, 144, 226, 0.58);
+  }
+  .course-details-secCard .menu-sec:hover::after{
+      margin: auto;
+      height: 8px;
+      width: 8px;
+      background-color: #005d9a;
+      box-shadow: 0 3px 6px 0 rgba(74, 144, 226, 0.58);
+      border-radius: 50%;
+      content: "";
+      display: block;
+  }
+  /* heighlight */
+  .highlights{
+    padding: 0;
+  }
+  .highlights ul li{
+    list-style: none;
+    padding: 5px 0px;
+  }
+  
+  .highlights li span{
+    letter-spacing: 0.23px;
+    color: rgba(18, 14, 61, 0.8);
+    font-size: 15px;
+  }
+  h3+hr{
+    border-radius: 3px;
+    height: 3px;
+    width: 100px;
+    background-color: #eaeef5;
+    margin-left: 0;
+  }
+  .highlights li>img{
+    padding-right: 8px;
+    float: left;
+  }
+  
+  #clients-img img{
+    width: 100%;
+    height: 50px;
+  }
+  
+  /* swiper */
+  
+  /* .swiper-container {
+    width: 100%;
+    height: 100%;
+  } */
+  .swiper-slide {
+  
+    /* box-shadow: 0 3px 10px 0 rgba(18, 14, 61, 0.12); */
+    text-align: center;
+    font-size: 18px;
+    background: #fff;
+    /* Center slide text vertically */
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: -webkit-flex;
+    display: flex;
+    -webkit-box-pack: center;
+    -ms-flex-pack: center;
+    -webkit-justify-content: center;
+    justify-content: center;
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+    -webkit-align-items: center;
+    align-items: center;
+    margin-bottom: 35px;
+  }
+  .swiper-wrapper{
+    text-align: center;
+  }
+  #custom-swiper{
+    width: 37%;
+    height: auto;
+    box-shadow: 0 3px 10px 0 rgba(18, 14, 61, 0.12);
+    border-radius: 1px;
+  }
+  
+  /* course details */
+  .pg-pgm{
+    border: 1px solid #d0d6e2;
+    border-radius: 4px;
+  }
+  .pg-pgm-head{
+    background-color: #005d9a;
+    color:#ffffff;
+    padding: 20px;
+  }
+  #pg-pgm{
+    padding: 0px 15px;
+  }
+  .pg-pgm-head p{
+    font-size: 21px;
+    font-weight: 500;
+  }
+  .pg-pgm-content{
+    padding: 15px;
+    padding-bottom: 32px;
+  }
+  .pg-pgm-content .col-one h5{
+    color: #e96161;
+    font-size: 25px;
+    font-weight: 500;
+  }
+  .pg-pgm-content .col-one p,.col-two p{
+    color: rgba(18, 14, 61, 0.35);
+    letter-spacing: 0.22px;
+    font-size: 14px;
+  }
+  .pg-pgm-content .col-two h5{
+    color: #1d9a7e;
+    font-size: 25px;
+    font-weight: 500;
+  }
+  .pg-pgm-content .col-three{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  .col-three a{
+    background-color: #005d9a;
+    color: white;
+  }
+  .pg-pgm-content button{
+    left: 25px;
+      position: absolute;
+      top: 185px;
+      background-color: #ff7979;
+      border-color: #ff7979;
+      color: #ffffff;
+      font-size: 13px;
+  }
+  /* .sub-videos{
+    padding: 20px;
+    border: solid 1px #d0d6e2;
+    background-color: #f9fbff;
+    border: 1px solid;
+    padding-top: 20px;
+    margin: 0px;
+    border-radius: 4px;
+    margin-top: 15px;
+  }
+  .sub-videos img{
+    width: 100%;
+  }
+  .sub-videos .sub-videos-content p{
+    font-size: 14px;
+      letter-spacing: 0.22px;
+      color: rgba(18, 14, 61, 0.35);
+  }
+  .sub-videos .sub-videos-content h5{
+    color: rgba(18, 14, 61, 0.8);
+      font-size: 18px;
+      font-weight: 500;
+  } */
+  .enquire{
+    border-radius: 4px;
+    border: solid 1px #ffc662;
+    background-color: #fef5e6;
+    padding: 25px;
+  }
+  .enquire p{
+    color: rgba(18, 14, 61, 0.35);
+    font-family: SFProDisplay;
+    font-size: 15px;
+  }
+  .enquire h5{
+    color: #3f3d64;
+    font-size: 18px;
+    font-weight: 500;
+  }
+  .enquire button{
+    box-shadow: 0 4px 8px 0 rgba(29, 206, 166, 0.45);
+    background-color: #1dcea6;
+    border-color: #1dcea6;
+    padding: 6px 46px;
+  }
+  .enquiry-form-main{
+    margin-top: 5%;
+  }
+  .display-course{
+    font-size: 15px;
+    color: #4a90e2;
+  }
+  .batches-head{
+    border-radius: 25px;
+    background-image: linear-gradient(87deg, #2561d4, #3a90e8);
+    padding: 36px 60px;
+  }
+  .batches-head .batches-left-pane .paraOne{
+    color: #ffffff;
+    font-size: 20px;
+    /* font-family: HelveticaNeue; */
+  }
+  .batches-head .batches-left-pane h3{
+    color: #ffffff;
+    /* font-family: HelveticaNeue; */
+    font-size: 44px;
+    font-weight: bold;
+  }
+  .batches-head .batches-left-pane h5{
+    display: inline-block;
+    color: #ffffff;
+    text-decoration: line-through;
+  }
+  .batches-head .batches-left-pane .paraTwo{
+    display: inline-block;
+    letter-spacing: 0.2px;
+    color: #ffffff;
+    padding: 0 10px;
+    /* font-family: HelveticaNeue; */
+    font-size: 13px;
+  }
+  .batches-head .batches-left-pane .paraThree{
+    letter-spacing: 0.2px;
+    color: #ffffff;
+    /* font-family: HelveticaNeue; */
+    font-size: 13px;
+  }
+  .batches-left-pane button, .batcher-right-pane button{
+    border-radius: 4px;
+    box-shadow: 0 4px 8px 0 rgba(18, 14, 61, 0.33);
+    background-color: #1dcea6;
+    border-color: #1dcea6;
+    padding: 6px 46px;
+  }
+  .card-head{
+    padding: 0px 15px;
+    margin-top: 53px;
+  }
+  .cards{
+    margin: 10px 0px;
+    padding: 20px;
+    border-radius: 4px;
+    box-shadow: 0 4px 8px 0 #195aae;
+    background-color: #ffffff;
+  }
+  .cards p{
+    color: rgba(18, 14, 61, 0.4);
+    font-size: 12px;
+  }
+  .cards h5{
+    color: #3f3d64;
+    font-size: 18px;
+    font-weight: 500;
+  }
+  .cards h5 span{
+    color: rgba(18, 14, 61, 0.4);
+    font-size: 12px;
+  }
+  .batcher-right-pane h4{
+    color: #ffffff;
+    line-height: 1.53;
+    font-size: 30px;
+    font-weight: 500
+  }
+  .batcher-right-pane p{
+    letter-spacing: 0.2px;
+    color: #ffffff;
+    font-size: 13px;
+  }
+  .dashed-line>p:before{
+    content: "";
+    position: absolute;
+    height: 100px;
+    top: 10px;
+    left: 50%;
+    display: block;
+    border: 1px dashed;
+  }
+  .dashed-line>p:before{
+    content: "";
+    position: absolute;
+    height: 100px;
+    top: 10px;
+    left: 50%;
+    display: block;
+    border: 1px dashed;
+  }
+  .dashed-line>p{
+    position: relative;
+  }
+  .common{
+    border: solid 1px #fafbff;
+    background-color: #f9fbff;
+  }
+  .mentor-card{
+    padding: 20px 40px;
+  }
+  .mentor-card h5{
+    color: rgba(18, 14, 61, 0.8);
+    font-size: 15px;
+    font-weight: 500;
+  }
+  .mentor-card p{
+    color: rgba(18, 14, 61, 0.5);
+    font-size: 13px;
+  }
+  .indus-proj{
+    border: solid 1px #d0d6e2;
+    background-color: #f9fbff;
+    padding: 16px 36px;
+    border-radius: 4px;
+  }
+  .indus-proj h5{
+    color: rgba(18, 14, 61, 0.8);
+    font-size: 19.8px;
+    font-weight: 500;
+  }
+  .indus-proj p{
+    color: rgba(18, 14, 61, 0.5);
+    line-height: 1.47;
+    font-size: 14.3px;
+  }
+  .indus-proj button{
+    border-radius: 4px;
+    box-shadow: 0 4px 9px 0 rgba(74, 144, 226, 0.58);
+    background-color: #005d9a;
+  }
+  
+  .enquire-sec{
+    padding: 30px 40px;
+    border-radius: 4px;
+    border: solid 1px #ffc662;
+    background-color: #fef5e6
+  }
+  .enquire-sec h5{
+    color: #3f3d64;
+    font-size: 19px;
+  }
+  .enquire-sec p{
+    color: rgba(18, 14, 61, 0.35);
+    font-size: 15px;
+  }
+  .enquiry-form-sec{
+    padding-top: 1em;
+  }
+  /* .enquiry-form-sec .enquiry-btn{
+    display: flex;
+      align-items: center;
+      justify-content: center;
+      width: 100%;
+  } */
+  .enquiry-form-sec .enquiry-btn btn{
+    width: 100%;
+  }
+  .student-card{
+    padding: 20px;
+    border-radius: 4px;
+    box-shadow: 0 3px 10px 0 rgba(18, 14, 61, 0.12);
+    background-color: #ffffff;
+    margin: 0;
+  }
+  #scardOne h3{
+    font-size: 26px;
+    font-weight: 500;
+    color: #80868b;
+    margin-bottom: 0;
+  
+  }
+  #scardTwo h3{
+    color: #f5a623;
+    font-size: 26px;
+    font-weight: 500;
+    margin-bottom: 0;
+  }
+  #scardthree h3{
+    color: #ef4c33;
+    font-size: 26px;
+    font-weight: 500;
+    margin-bottom: 0;
+  }
+  #scardOne p,#scardTwo p,#scardthree p{
+    color: rgba(18, 14, 61, 0.35);
+    font-size: 15px;
+  }
+  .testimoniel{
+    margin-top: 30px;
+  }
+  .review-content{
+    border-radius: 4px;
+    box-shadow: 0 3px 10px 0 rgba(18, 14, 61, 0.12);
+    background-color: #ffffff;
+    padding: 30px;
+  }
+  #review-content{
+    overflow: auto;
+  }
+  .review-content img{
+    float: left;
+  }
+  
+  /* student works at */
+  .stud-rev{
+    border-radius: 4px;
+    box-shadow: 0 3px 10px 0 rgba(18, 14, 61, 0.12);
+    background-color: #ffffff;
+    text-align: center;
+    padding: 16px 9px;
+  }
+  
+  .stud-work{
+    margin-bottom: 50px;
+  }
+  
+  
+  /*** Content ***/
+  main {}
+    .i-row { padding-top: 40px; padding-bottom: 40px; }
+    .i-row-odd { background-color: #ffffff; }
+    .i-row-even { background-color: #f7f7f7; }
+  
+  .section-title { margin-top: 0; margin-bottom: 0.6em; font-weight: 500; }
+  .section-title .fa { margin-right: 5px; color: #6f5499; }
+  
+  
+  
+  /******************************************/
+  
+  /* .i-accordion .panel-heading,
+  .d-accordion .panel-heading,
+  .accordion-2a .panel-heading,
+  .accordion-2b .panel-heading,
+  .accordion-3 .panel-heading { cursor: pointer; }
+  .d-accordion .panel-heading.collapsed .fa-chevron-up:before { content: '\f077'; } */
+  
+  .panel-default{
+    border-radius: 4px;
+    border: solid 1px #d0d6e2;
+    background-color: #f9fbff;
+    padding: 12px;
+    margin: 0;
+    cursor: pointer;
+  }
+  .panel-default h4{
+    color: rgba(18, 14, 61, 0.8);
+    font-size: 1em;
+    font-weight: 500;
+    margin-bottom: 0;
+  }
+  .panel-default ul{
+    color: rgba(18, 14, 61, 0.8);
+    font-size: 14px;
+    margin-bottom: 0;
+  }
+  .panel-default p{
+    margin-bottom: 0;
+  }
+  .panel-heading h4:after {
+    content: "\f067"; /* fa-chevron-down */
+    font-family: 'FontAwesome';
+    position: absolute;
+    right: 20px;
+  }
+  .panel-heading[aria-expanded="true"] h4:after {
+    content: "\f068"; /* fa-chevron-up */
+  }
+  
+  
+  
+  @media only screen and (min-width: 1366px){
+    .indus-proj{
+      border: solid 1px #d0d6e2;
+      background-color: #f9fbff;
+      padding: 16px 36px;
+      border-radius: 4px;
+      height: 15em;
+    }
+    /* .left-content ul{
+      font-size: 1.2em;
+    }
+    .course-details-secCard a{
+      color: rgba(18, 14, 61, 0.7);
+      font-size: 1em;
+      font-weight: 500;
+      text-decoration: none;
+  }
+  .highlights li span{
+    letter-spacing: 0.23px;
+    color: rgba(18, 14, 61, 0.8);
+    font-size: 1.2em  ;
+  }
+  #course-details p{
+    font-size: 1.2em;
+  }
+  .panel-default h4{
+    color: rgba(18, 14, 61, 0.8);
+    font-size: 1.2em;
+    font-weight: 500;
+    margin-bottom: 0;
+  }
+  .panel-default ul{
+    color: rgba(18, 14, 61, 0.8);
+    font-size: 1em;
+    margin-bottom: 0;
+  }
+  .batcher-right-pane h4{
+    color: #ffffff;
+    line-height: 1.53;
+    font-size: 2em;
+    font-weight: 500
+  }
+  .batcher-right-pane p{
+    letter-spacing: 0.2px;
+    color: #ffffff;
+    font-size: 1.2em;
+  }
+  .review-content p{
+    font-size: 1.2em;
+  }
+  .batches-head .batches-left-pane .paraTwo{
+    display: inline-block;
+    letter-spacing: 0.2px;
+    color: #ffffff;
+    padding: 0 10px;
+    font-family: HelveticaNeue;
+    font-size: 1em;
+  } */
+  }
+  
+  /* media queries */
+  
+  @media only screen and (max-width: 1200px) {
+    .left-content h2{
+      color: #005d9a;
+      font-size: 30px  ;
+      font-weight: bold;
+      letter-spacing: 0.58px;
+    }
+    .main .btn-lg{
+      box-shadow: 0 4px 9px rgba(74, 144, 226, 0.58);
+      padding: 4px 38px  ;
+      background-color: #005d9a;
+    }
+    .highlights li span{
+      letter-spacing: 0.23px;
+      color: rgba(18, 14, 61, 0.8);
+      font-size: 14px  ;
+    }
+    .cards h5{
+      color: #3f3d64;
+      font-size: 15px  ;
+      font-weight: 500;
+    }
+    .indus-proj{
+      border: solid 1px #d0d6e2;
+      background-color: #f9fbff;
+      padding: 16px 36px;
+      border-radius: 4px;
+      height: 18em;
+    }
+  }
+  @media only screen and (max-width: 992px) {
+    .left-content h2{
+      color: #005d9a;
+      font-size: 30px  ;
+      font-weight: bold;
+      letter-spacing: 0.58px;
+    }
+    .main ul{
+      margin: 0  ;
+    }
+    .main .btn-lg{
+      font-size: 18px;
+      box-shadow: 0 4px 9px rgba(74, 144, 226, 0.58);
+      padding: 4px 22px  ;
+      background-color: #005d9a;
+    }
+    .course-details h3{
+      font-size: 18px  ;
+      letter-spacing: 0.38px;
+    }
+    .swiper{
+      display: none;
+    }
+  
+    .main .demo img{
+      height: auto;
+      width: 100%  ;
+      border-radius: 4px;
+      box-shadow: 0px 10px 20px #042c419e;
+    }
+    .main{
+      margin-top: 15%  ;
+      padding: 0px 83px;
+    }
+    /* .main .demo{
+      padding: 18px 0  ;
+    } */
+    #clients-img{
+      padding-left: 0px  ;
+    }
+    .course-details-secCard .btn-lg{
+      box-shadow: 0 4px 9px 0 rgba(74, 144, 226, 0.58);
+      padding: 8px 30px  ;
+      background-color: #005d9a;
+    }
+    .batches-head{
+      border-radius: 25px;
+      background-image: linear-gradient(87deg, #2561d4, #3a90e8);
+      padding: 18px 0px  ;
+    }
+    .dashed-line{
+      display: none;
+    }
+    .indus-proj{
+      border: solid 1px #d0d6e2;
+      background-color: #f9fbff;
+      padding: 16px 11px  ;
+      border-radius: 4px;
+    }
+  }
+  @media only screen and (max-width: 768px) {
+    .my-container{
+      padding: 20px 32px  ;
+    }
+    .left-content{
+      padding: 0  ;
+    }
+    .left-content h2{
+      color: #005d9a;
+      font-size: 38px  ;
+      font-weight: bold;
+      letter-spacing: 0.58px;
+    }
+    .main .btn-lg{
+      box-shadow: 0 4px 9px rgba(74, 144, 226, 0.58);
+      padding: 4px 26px  ;
+      background-color: #005d9a;
+    }
+  
+    .main .demo img{
+      height: 50vh  ;
+      width: 100%;
+      border-radius: 4px;
+      box-shadow: 0px 10px 20px #042c419e;
+    }
+    .main{
+      margin-top: 28%  ;
+      padding: 0px 32px  ;
+    }
+  
+    .main .demo{
+      padding: 20px 0  ;
+    }
+    .course-details h3{
+      font-size: 25px  ;
+      letter-spacing: 0.38px;
+    }
+    #clients-img{
+      padding-left: 0px  ;
+    }
+  
+    .enquiry-form-main{
+      margin-top: 5%  ;
+    }
+    .course-details-secCard .btn-lg{
+      box-shadow: 0 4px 9px 0 rgba(74, 144, 226, 0.58);
+      padding: 4px 20px  ;
+      background-color: #005d9a;
+    }
+    .reviw-video{
+      padding: 0  ;
+    }
+    .xs-hide{
+      display: none;
+    }
+    .highlights{
+      padding: 0 0 20px  ;
+    }
+    .highlights ul{
+      margin: 0;
+    }
+    .swiper-main{
+      padding: 0 32px 20px  ;
+    }
+    .pg-courses{
+      padding: 20px 0  ;
+    }
+    .card-head{
+      padding: 0px  ;
+      margin-top: 20px  ;
+    }
+    .student-card{
+      margin: 10px 0  ;
+    }
+    .indus-proj{
+      border: solid 1px #d0d6e2;
+      background-color: #f9fbff;
+      padding: 16px 36px;
+      border-radius: 4px;
+      height: 16em;
+    }
+  }
+  @media only screen and (max-width: 600px) {
+  
+  }
+  @media only screen and (min-width: 1200){
+    .swiper{
+      display: none  ;
+    }
+  }
+  
+  
+  @media only screen and (min-width: 1920px){
+    .left-content h2{
+    color: #005d9a;
+    font-size: 3em;
+    font-weight: bold;
+    letter-spacing: 0.58px;
+  }
+  
+    .left-content ul{
+      font-size: 1.5em;
+    }
+    .main .btn-lg{
+      box-shadow: 0 4px 9px rgba(74, 144, 226, 0.58);
+      padding: 8px 75px;
+      background-color: #005d9a;
+      font-size:1.5em;
+    }
+  
+  /*  section 2 */
+  .my-container .course-details{
+    box-shadow: 0 3px 10px 0 rgba(18, 14, 61, 0.12);
+    text-align: center;
+    padding: 45px 0;
+    position: sticky;
+  }
+  .segOne h3{
+    color:#f5a623;
+    font-size: 2em;
+  }
+  .segTwo h3{
+    color:#ff8982;
+    font-size: 2em;
+  }
+  .segThree h3{
+    color:#00abb1;
+    font-size: 2em;
+  }
+  .segFour h3{
+    color: #00c190;
+    font-size: 2em;
+  }
+  .segFive h3{
+    color:#d3866e;
+    font-size: 2em;
+  }
+  .course-details p{
+    margin-bottom: 0;
+    color: rgba(18, 14, 61, 0.35);
+    font-size: 1.2em;
+  }
+  /* section 3 */
+  .course-details-secCard{
+    box-shadow: 0 3px 10px 0 rgba(18, 14, 61, 0.12);
+    text-align: center;
+    padding: 45px 0px;
+  }
+    .course-details-secCard a{
+      color: rgba(18, 14, 61, 0.7);
+      font-size: 1.4em;
+      font-weight: 500;
+      text-decoration: none;
+  }
+  
+  .highlights li span{
+    letter-spacing: 0.23px;
+    color: rgba(18, 14, 61, 0.8);
+    font-size: 1.4em  ;
+  }
+   h3{
+    font-size: 2em;
+  }
+  /* section 4 */
+  
+  .pg-pgm-content .col-one h5{
+    color: #e96161;
+    font-size: 2em;
+    font-weight: 500;
+  }
+  .pg-pgm-content .col-one p,.col-two p{
+    color: rgba(18, 14, 61, 0.35);
+    letter-spacing: 0.22px;
+    font-size: 1.2em;
+  }
+  .pg-pgm-content .col-two h5{
+    color: #1d9a7e;
+    font-size: 2em;
+    font-weight: 500;
+  }
+  #course-details p{
+    font-size: 1.4em;
+  }
+  h5{
+    font-size: 1.8em;
+  }
+  .panel-default h4{
+    color: rgba(18, 14, 61, 0.8);
+    font-size: 1.4em;
+    font-weight: 500;
+    margin-bottom: 0;
+  }
+  .panel-default{
+    border-radius: 4px;
+    border: solid 1px #d0d6e2;
+    background-color: #f9fbff;
+    padding: 16px;
+    margin: 0;
+    cursor: pointer;
+  }
+  .panel-default ul{
+    color: rgba(18, 14, 61, 0.8);
+    font-size: 1.2em;
+    margin-bottom: 0;
+  }
+  .panel-body p{
+    color: rgba(18, 14, 61, 0.8) !important;
+      font-size: 1.2em !important;
+      margin-bottom: 0;
+  }
+  .enquire h5{
+    color: #3f3d64;
+    font-size: 1.4em;
+    font-weight: 500;
+  }
+  .enquire{
+    border-radius: 4px;
+    border: solid 1px #ffc662;
+    background-color: #fef5e6;
+    padding:22px;
+  }
+  /* .enquiry-form-main{
+    margin-top: 38%;
+  } */
+  .col-three .btn{
+    font-size: 1.25rem;
+  }
+  .enquire .btn{
+    font-size: 1.25em;
+  }
+  .form-control {
+    display: block;
+    width: 100%;
+    height: calc(1.5em + .75rem + 2px);
+    padding: 1.5rem 0.75rem;
+    font-size: 1rem;
+    font-weight: 400;
+    line-height: 1.5;
+    color: #495057;
+    background-color: #fff;
+    background-clip: padding-box;
+    border: 1px solid #ced4da;
+    border-radius: .25rem;
+    transition: border-color .15s ease-in-out,box-shadow .15s ease-in-out;
+  }
+  
+  /* section 5 */
+  .batches-head .batches-left-pane .paraOne{
+    color: #ffffff;
+    font-size: 1.8em;
+    /* font-family: HelveticaNeue; */
+  }
+  
+  .batcher-right-pane p{
+    letter-spacing: 0.2px;
+    color: #ffffff;
+    font-size: 1.5em;
+  }
+  .review-content p{
+    font-size: 1.2em;
+  }
+  .batches-head .batches-left-pane .paraTwo{
+    display: inline-block;
+    letter-spacing: 0.2px;
+    color: #ffffff;
+    padding: 0 10px;
+    /* font-family: HelveticaNeue; */
+    font-size: 1.5em;
+  }
+  .batches-head .batches-left-pane .paraThree{
+    letter-spacing: 0.2px;
+    color: #ffffff;
+    /* font-family: HelveticaNeue; */
+    font-size: 1.5em;
+  }
+  .batches-head .btn{
+   font-size: 1.6em;
+  }
+  .cards p{
+    color: rgba(18, 14, 61, 0.4);
+    font-size: 1.4em;
+  }
+  .cards h5{
+    color: #3f3d64;
+    font-size: 1.8em;
+    font-weight: 500;
+  }
+  .cards h5 span{
+    color: rgba(18, 14, 61, 0.4);
+    font-size: .8em;
+  }
+  .mentor-card h5{
+    color: rgba(18, 14, 61, 0.8);
+    font-size: 1.5em;
+    font-weight: 500;
+  }
+  .mentor-card p{
+    color: rgba(18, 14, 61, 0.5);
+    font-size: 1.2em;
+  }
+  .indus-proj h5{
+    color: rgba(18, 14, 61, 0.8);
+    font-size: 1.4em;
+    font-weight: 500;
+  }
+  .indus-proj p{
+    color: rgba(18, 14, 61, 0.5);
+    line-height: 1.47;
+    font-size: 1.2em;
+  }
+  .indus-proj button{
+    font-size: 1em;
+    border-radius: 4px;
+    box-shadow: 0 4px 9px 0 rgba(74, 144, 226, 0.58);
+    background-color: #005d9a;
+  }
+  .enquire-sec h5{
+    color: #3f3d64;
+    font-size: 1.8em;
+  }
+  .enquire-sec p{
+    color: rgba(18, 14, 61, 0.35);
+    font-size: 1.4em;
+  }
+  .student-card h3{
+    font-size: 1.8em !important;
+  }
+  
+  .student-card p{
+    font-size :1.4em !important;
+  }
+  .review-content p{
+    font-size: 1.4em;
+  }
+  .stud-rev h6{
+    font-size: 1.4em;
+  }
+  .stud-rev p{
+    font-size: 1.2em;
+  }
+  .panel-body p{
+    color: rgba(18, 14, 61, 0.8) !important;
+      font-size: 1.2em !important;
+      margin-bottom: 0;
+  }
+  #clients-img img{
+    width: 100%;
+    height: 100%;
+  }
+  }
+  
+  
+  
+  
+  @media only screen and (min-width: 2560px){
+    .my-container{
+      padding: 85px 83px;
+    }
+    .left-content h2{
+      color: #005d9a;
+      font-size: 4.5em;
+      font-weight: bold;
+      letter-spacing: 0.58px;
+    }
+  
+      .left-content ul{
+        font-size: 2.6em;
+      }
+      .main .btn-lg{
+        box-shadow: 0 4px 9px rgba(74, 144, 226, 0.58);
+        padding: 14px 82px;
+        background-color: #005d9a;
+        font-size:2.8em;
+      }
+  
+    /*  section 2 */
+    .my-container .course-details{
+      box-shadow: 0 3px 10px 0 rgba(18, 14, 61, 0.12);
+      text-align: center;
+      padding: 60px 0;
+      position: sticky;
+    }
+    .segOne h3{
+      color:#f5a623;
+      font-size: 3em;
+    }
+    .segTwo h3{
+      color:#ff8982;
+      font-size: 3em;
+    }
+    .segThree h3{
+      color:#00abb1;
+      font-size: 3em;
+    }
+    .segFour h3{
+      color: #00c190;
+      font-size: 3em;
+    }
+    .segFive h3{
+      color:#d3866e;
+      font-size: 3em;
+    }
+    .course-details p{
+      margin-bottom: 0;
+      color: rgba(18, 14, 61, 0.35);
+      font-size: 2.4em;
+    }
+    /* section 3 */
+    .course-details-secCard{
+      box-shadow: 0 3px 10px 0 rgba(18, 14, 61, 0.12);
+      text-align: center;
+      padding: 55px 0px;
+    }
+      .course-details-secCard a{
+        color: rgba(18, 14, 61, 0.7);
+        font-size: 2.4em;
+        font-weight: 500;
+        text-decoration: none;
+    }
+  
+    .highlights li span{
+      letter-spacing: 0.23px;
+      color: rgba(18, 14, 61, 0.8);
+      font-size: 2.4em  ;
+    }
+    #clients-img img{
+      width: 100%;
+      height: 100%;
+    }
+     h3{
+      font-size: 3.5em;
+    }
+    /* section 4 */
+    .pg-pgm-content .col-one h5{
+      color: #e96161;
+      font-size: 2.5em;
+      font-weight: 500;
+    }
+    .pg-pgm-content .col-one p,.col-two p{
+      color: rgba(18, 14, 61, 0.35);
+      letter-spacing: 0.22px;
+      font-size: 1.8em;
+    }
+    .pg-pgm-content .col-two h5{
+      color: #1d9a7e;
+      font-size: 2.5em;
+      font-weight: 500;
+    }
+    #course-details p{
+      font-size: 2.6em;
+    }
+    h5{
+      font-size: 2.8em;
+    }
+    .panel-default{
+      border-radius: 4px;
+      border: solid 1px #d0d6e2;
+      background-color: #f9fbff;
+      padding: 20px;
+      margin: 0;
+      cursor: pointer;
+    }
+    .panel-default h4{
+      color: rgba(18, 14, 61, 0.8);
+      font-size: 2.2em;
+      font-weight: 500;
+      margin-bottom: 0;
+    }
+    .panel-default ul{
+      color: rgba(18, 14, 61, 0.8);
+      font-size: 1.8em;
+      margin-bottom: 0;
+    }
+    .panel-body p{
+      color: rgba(18, 14, 61, 0.8) !important;
+        font-size: 1.4em !important;
+        margin-bottom: 0;
+    }
+    .enquire h5{
+      color: #3f3d64;
+      font-size: 2.4em;
+      font-weight: 500;
+    }
+    /* .enquiry-form-main{
+      margin-top: 30%;
+    } */
+    .enquire-sec{
+      padding: 50px 40px;
+      border-radius: 4px;
+      border: solid 1px #ffc662;
+      background-color: #fef5e6
+    }
+    .enquire{
+      border-radius: 4px;
+      border: solid 1px #ffc662;
+      background-color: #fef5e6;
+      padding: 22px;
+    }
+    .enquire p{
+      color: rgba(18, 14, 61, 0.35);
+      font-family: SFProDisplay;
+      font-size: 2em;
+    }
+    .col-three .btn{
+      font-size: 2rem;
+    }
+    .enquire .btn{
+      font-size: 2rem;
+    }
+    .form-control {
+      display: block;
+      width: 100%;
+      height: calc(1.5em + .75rem + 2px);
+      padding: 2.4rem 0.75rem;
+      font-size: 1.8rem;
+      font-weight: 400;
+      line-height: 1.5;
+      color: #495057;
+      background-color: #fff;
+      background-clip: padding-box;
+      border: 1px solid #ced4da;
+      border-radius: .25rem;
+      transition: border-color .15s ease-in-out,box-shadow .15s ease-in-out;
+    }
+  
+    /* section 5 */
+    .batches-head .batches-left-pane .paraOne{
+      color: #ffffff;
+      font-size: 3em;
+      /* font-family: HelveticaNeue; */
+    }
+  
+    .batcher-right-pane p{
+      letter-spacing: 3px;
+      color: #ffffff;
+      font-size: 2.2em;
+    }
+    .review-content p{
+      font-size: 2.2em;
+    }
+    .batches-head .batches-left-pane .paraTwo{
+      display: inline-block;
+      letter-spacing: 0.2px;
+      color: #ffffff;
+      padding: 0 10px;
+      /* font-family: HelveticaNeue; */
+      font-size: 2.2em;
+    }
+    .batches-head .batches-left-pane .paraThree{
+      letter-spacing: 0.2px;
+      color: #ffffff;
+      /* font-family: HelveticaNeue; */
+      font-size: 2.2em;
+    }
+    .batcher-right-pane h4{
+      font-size: 4.2em;
+    }
+    .batches-head .btn{
+     font-size: 2.4em;
+    }
+    .cards p{
+      color: rgba(18, 14, 61, 0.4);
+      font-size: 2.2em;
+    }
+    .cards{
+      padding: 64px;
+    }
+    .cards h5{
+      color: #3f3d64;
+      font-size: 2.8em;
+      font-weight: 500;
+    }
+    .cards h5 span{
+      color: rgba(18, 14, 61, 0.4);
+      font-size: 1.4em;
+    }
+    .mentor-card h5{
+      color: rgba(18, 14, 61, 0.8);
+      font-size: 2.2em;
+      font-weight: 500;
+    }
+    .mentor-card .licon{
+      width: 50px;
+    }
+    .swiper-slide{
+      padding:50px 40px;
+    }
+    .mentor-card p{
+      color: rgba(18, 14, 61, 0.5);
+      font-size: 1.8em;
+    }
+    .indus-proj{
+      border: solid 1px #d0d6e2;
+      background-color: #f9fbff;
+      padding: 42px;
+      border-radius: 4px;
+      height: 25em;
+    }
+    .indus-proj h5{
+      color: rgba(18, 14, 61, 0.8);
+      font-size: 2.4em;
+      font-weight: 500;
+    }
+    .indus-proj p{
+      color: rgba(18, 14, 61, 0.5);
+      line-height: 1.47;
+      font-size: 2.2em;
+    }
+    .indus-proj button{
+      font-size: 1.4em;
+      border-radius: 4px;
+      box-shadow: 0 4px 9px 0 rgba(74, 144, 226, 0.58);
+      background-color: #005d9a;
+    }
+    .enquire-sec h5{
+      color: #3f3d64;
+      font-size: 2.2em;
+    }
+    .enquiry-form-sec .enquiry-btn .btn{
+      width: 100%;
+      font-size: 2em;
+    }
+    .enquire-sec p{
+      color: rgba(18, 14, 61, 0.35);
+      font-size: 2em;
+    }
+    .student-card{
+      padding: 40px;
+      border-radius: 4px;
+      box-shadow: 0 3px 10px 0 rgba(18, 14, 61, 0.12);
+      background-color: #ffffff;
+      margin: 0;
+    }
+    .student-card h3{
+      font-size: 2.8em !important;
+    }
+  
+    .student-card p{
+      font-size :2em !important;
+    }
+    .review-content p{
+      font-size: 2.4em;
+    }
+    .stud-rev h6{
+      font-size: 2em;
+    }
+    .stud-rev p{
+      font-size: 1.8em;
+    }
+    .panel-body p{
+      color: rgba(18, 14, 61, 0.8);
+        font-size: 1.6em;
+        margin-bottom: 0;
+    }
+    .main{
+      margin-top: 2%;
+      padding: 0px 83px;
+    }
+  }
+  
